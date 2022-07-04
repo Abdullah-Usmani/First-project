@@ -1,0 +1,84 @@
+/* Gluegle */
+
+#gluegle {
+    color: black;
+    font-size: 10vh;
+    background-color: gray ;
+    width: 23vw;
+    margin: 0 auto;
+    margin-top: 15vh;
+    text-align: center;
+    align-items: center;
+}
+
+/* center form */
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 52px;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 54vw;
+    min-height: 15vh;
+}
+
+input[type="text"] {
+    display: inline-block;
+    font-size: 15px;
+    height: 30px;
+    min-width: calc( 100% - 13px );
+    text-align: left;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid black 2px;
+}
+
+.submit {
+    width: 120px;
+    height: 24px;
+    margin-left: ;
+    border-radius: 3px;
+    border: solid grey 0.5px;
+}
+
+button[value="Im feeling lucky"] {
+    width: 120px;
+    height: 24px;
+    text-align: center;
+    border-radius: 3px;
+    border: solid grey 0.5px;
+}
+
+
+input[value="Advanced Search"] {
+    width: 130px;
+    height: 24px;
+    background-color: #4b8efa;
+    color: white;
+    border-radius: 3px;
+    border: solid white 1px;
+    margin: 0 auto;
+}
+
+/* links top right */
+
+.links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.links > a {
+}
+
+.links > a > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
